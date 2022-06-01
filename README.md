@@ -1,3 +1,7 @@
 # Timeer-Assingment-react-Js
 Assingnment
-depllyid linl:- fluffy-cat-d676ee
+deployed linlk:- 
+
+         🕳🕳🔵⬇⬇⬇⏬⏬⬇⬇⬇🔵🕳🕳
+
+https://lucent-medovik-b92e49.netlify.app/
