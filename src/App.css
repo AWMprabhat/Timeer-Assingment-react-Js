@@ -1,38 +1,91 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 10s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* box-shadow: black 0px 20px 50px,
+    green 0px -12px 30px,red 0px 4px 6px,
+    rgba(170, 131, 113, 0.514) 0px 12px 13px, blue 0px -3px 5px; */
   color: white;
+  width: 50%;
+  /* margin: auto; */
+  box-sizing: border-box;
+  margin-top: 30px;
+  padding-bottom: 40px;
 }
+.heading {
+  /* display: flex; */
+  justify-content: space-between;
 
-.App-link {
-  color: #61dafb;
+  align-items: center;
 }
+.heading > h3 {
+  cursor: pointer;
+  transition: 500ms ease;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(360deg);
-  }
-  to {
-    transform: rotate(0deg);
-  }
+  width: 48%;
+  height: 100%;
+  margin: 0;
+  padding: 20px 0;
+  /* text-align: center; */
+}
+.showcomponent {
+  /* text-align: center; */
+  padding: 2%;
+  box-sizing: border-box;
+}
+.b-border {
+  border-bottom: 2px solid red;
+  box-shadow: rgba(43, 145, 123, 0.877) 0px 2px 1px,
+    rgba(23, 83, 172, 0.829) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.secondInput{
+  border: none;
+  background-color: rgb(80, 79, 79);
+  width: 25%;
+  font-size: 20px;
+  padding: 1%;
+  box-sizing: border-box;
+  color: white;
+  border-radius: 5px;
+}
+::placeholder{
+  font-size: 15px;
+  color: rgb(167, 164, 164);
+}
+.secondInput:focus{
+  outline: none;
+}
+button{
+  padding: 5px 15px;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.play{
+  background-color: rgb(60, 105, 201);
+}
+.play:hover{
+  background-color: rgb(12, 78, 221);
+}
+.pause{
+  background-color: rgb(71, 167, 71);
+}
+.pause:hover{
+  background-color: green;
+}
+.reset{
+  background-color: rgb(165, 65, 77);
+}
+.reset:hover{
+  background-color: rgb(212, 30, 52);
+}
+button:focus{
+  outline: none;
+}
+.btnDiv{
+
+  width: 40%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
 }
