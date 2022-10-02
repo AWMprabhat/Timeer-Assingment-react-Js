@@ -1,10 +1,10 @@
 # Timeer-Assingment-react-Js
 
-deployed linlk:- 
+Live linlk:- 
 
         
 > * https://awm-timer-stopwatch.netlify.app/
 
-* created an app using JavaScript HTML & CSS
+* created an app using React JS 
 > * timmer 
 > * StopWatch
